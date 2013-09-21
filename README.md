@@ -31,5 +31,7 @@ this will be implemented in the following stages:
 for this app to work it will need to be created for Android as well as IOS. if you are willing and able to develop this app for
 android please get in touch
 
+all the database and user/login features are handled with the PARSE API
+
 email -: jamiemac262@hotmail.co.uk
 skype -: jamiemac262
