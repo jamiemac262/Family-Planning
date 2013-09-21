@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6F87CA17EE4C510030A9AB /* BeginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F87C917EE4C510030A9AB /* BeginViewController.m */; };
 		7DE2EAEA17ECA2B100959F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EAE917ECA2B100959F23 /* Foundation.framework */; };
 		7DE2EAEC17ECA2B100959F23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EAEB17ECA2B100959F23 /* CoreGraphics.framework */; };
 		7DE2EAEE17ECA2B100959F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EAED17ECA2B100959F23 /* UIKit.framework */; };
@@ -15,13 +16,24 @@
 		7DE2EAFA17ECA2B100959F23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2EAF917ECA2B100959F23 /* AppDelegate.m */; };
 		7DE2EAFD17ECA2B100959F23 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2EAFB17ECA2B100959F23 /* Main_iPhone.storyboard */; };
 		7DE2EB0017ECA2B100959F23 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2EAFE17ECA2B100959F23 /* Main_iPad.storyboard */; };
-		7DE2EB0317ECA2B100959F23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2EB0217ECA2B100959F23 /* ViewController.m */; };
+		7DE2EB0317ECA2B100959F23 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2EB0217ECA2B100959F23 /* ScheduleViewController.m */; };
 		7DE2EB0517ECA2B100959F23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2EB0417ECA2B100959F23 /* Images.xcassets */; };
 		7DE2EB0C17ECA2B100959F23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB0B17ECA2B100959F23 /* XCTest.framework */; };
 		7DE2EB0D17ECA2B200959F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EAE917ECA2B100959F23 /* Foundation.framework */; };
 		7DE2EB0E17ECA2B200959F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EAED17ECA2B100959F23 /* UIKit.framework */; };
 		7DE2EB1617ECA2B200959F23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DE2EB1417ECA2B200959F23 /* InfoPlist.strings */; };
 		7DE2EB1817ECA2B200959F23 /* Family_PlanningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2EB1717ECA2B200959F23 /* Family_PlanningTests.m */; };
+		7DE2EB2417ED047000959F23 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2317ED047000959F23 /* Parse.framework */; };
+		7DE2EB2E17ED04EA00959F23 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2517ED04EA00959F23 /* AudioToolbox.framework */; };
+		7DE2EB2F17ED04EA00959F23 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2617ED04EA00959F23 /* CFNetwork.framework */; };
+		7DE2EB3017ED04EA00959F23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2717ED04EA00959F23 /* CoreLocation.framework */; };
+		7DE2EB3117ED04EA00959F23 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2817ED04EA00959F23 /* libz.1.1.3.dylib */; };
+		7DE2EB3217ED04EA00959F23 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2917ED04EA00959F23 /* MobileCoreServices.framework */; };
+		7DE2EB3317ED04EA00959F23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2A17ED04EA00959F23 /* QuartzCore.framework */; };
+		7DE2EB3417ED04EA00959F23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2B17ED04EA00959F23 /* Security.framework */; };
+		7DE2EB3517ED04EA00959F23 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2C17ED04EA00959F23 /* StoreKit.framework */; };
+		7DE2EB3617ED04EA00959F23 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE2EB2D17ED04EA00959F23 /* SystemConfiguration.framework */; };
+		7DE2EB3917ED10CD00959F23 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2EB3817ED10CD00959F23 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D6F87C817EE4C510030A9AB /* BeginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginViewController.h; sourceTree = "<group>"; };
+		7D6F87C917EE4C510030A9AB /* BeginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginViewController.m; sourceTree = "<group>"; };
 		7DE2EAE617ECA2B100959F23 /* Family Planning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Family Planning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE2EAE917ECA2B100959F23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DE2EAEB17ECA2B100959F23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +61,26 @@
 		7DE2EAF917ECA2B100959F23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DE2EAFC17ECA2B100959F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		7DE2EAFF17ECA2B100959F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7DE2EB0117ECA2B100959F23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DE2EB0217ECA2B100959F23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DE2EB0117ECA2B100959F23 /* ScheduleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		7DE2EB0217ECA2B100959F23 /* ScheduleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		7DE2EB0417ECA2B100959F23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7DE2EB0A17ECA2B100959F23 /* Family PlanningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Family PlanningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE2EB0B17ECA2B100959F23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7DE2EB1317ECA2B200959F23 /* Family PlanningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Family PlanningTests-Info.plist"; sourceTree = "<group>"; };
 		7DE2EB1517ECA2B200959F23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DE2EB1717ECA2B200959F23 /* Family_PlanningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Family_PlanningTests.m; sourceTree = "<group>"; };
+		7DE2EB2317ED047000959F23 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7DE2EB2517ED04EA00959F23 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7DE2EB2617ED04EA00959F23 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7DE2EB2717ED04EA00959F23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7DE2EB2817ED04EA00959F23 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		7DE2EB2917ED04EA00959F23 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7DE2EB2A17ED04EA00959F23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7DE2EB2B17ED04EA00959F23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7DE2EB2C17ED04EA00959F23 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7DE2EB2D17ED04EA00959F23 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7DE2EB3717ED10CD00959F23 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7DE2EB3817ED10CD00959F23 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +88,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE2EB2E17ED04EA00959F23 /* AudioToolbox.framework in Frameworks */,
+				7DE2EB2F17ED04EA00959F23 /* CFNetwork.framework in Frameworks */,
+				7DE2EB3017ED04EA00959F23 /* CoreLocation.framework in Frameworks */,
+				7DE2EB3117ED04EA00959F23 /* libz.1.1.3.dylib in Frameworks */,
+				7DE2EB3217ED04EA00959F23 /* MobileCoreServices.framework in Frameworks */,
+				7DE2EB3317ED04EA00959F23 /* QuartzCore.framework in Frameworks */,
+				7DE2EB3417ED04EA00959F23 /* Security.framework in Frameworks */,
+				7DE2EB3517ED04EA00959F23 /* StoreKit.framework in Frameworks */,
+				7DE2EB3617ED04EA00959F23 /* SystemConfiguration.framework in Frameworks */,
 				7DE2EAEC17ECA2B100959F23 /* CoreGraphics.framework in Frameworks */,
 				7DE2EAEE17ECA2B100959F23 /* UIKit.framework in Frameworks */,
 				7DE2EAEA17ECA2B100959F23 /* Foundation.framework in Frameworks */,
+				7DE2EB2417ED047000959F23 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +139,16 @@
 		7DE2EAE817ECA2B100959F23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7DE2EB2517ED04EA00959F23 /* AudioToolbox.framework */,
+				7DE2EB2617ED04EA00959F23 /* CFNetwork.framework */,
+				7DE2EB2717ED04EA00959F23 /* CoreLocation.framework */,
+				7DE2EB2817ED04EA00959F23 /* libz.1.1.3.dylib */,
+				7DE2EB2917ED04EA00959F23 /* MobileCoreServices.framework */,
+				7DE2EB2A17ED04EA00959F23 /* QuartzCore.framework */,
+				7DE2EB2B17ED04EA00959F23 /* Security.framework */,
+				7DE2EB2C17ED04EA00959F23 /* StoreKit.framework */,
+				7DE2EB2D17ED04EA00959F23 /* SystemConfiguration.framework */,
+				7DE2EB2317ED047000959F23 /* Parse.framework */,
 				7DE2EAE917ECA2B100959F23 /* Foundation.framework */,
 				7DE2EAEB17ECA2B100959F23 /* CoreGraphics.framework */,
 				7DE2EAED17ECA2B100959F23 /* UIKit.framework */,
@@ -117,9 +163,13 @@
 				7DE2EAF817ECA2B100959F23 /* AppDelegate.h */,
 				7DE2EAF917ECA2B100959F23 /* AppDelegate.m */,
 				7DE2EAFB17ECA2B100959F23 /* Main_iPhone.storyboard */,
+				7D6F87C817EE4C510030A9AB /* BeginViewController.h */,
+				7D6F87C917EE4C510030A9AB /* BeginViewController.m */,
+				7DE2EB3717ED10CD00959F23 /* LoginViewController.h */,
+				7DE2EB3817ED10CD00959F23 /* LoginViewController.m */,
 				7DE2EAFE17ECA2B100959F23 /* Main_iPad.storyboard */,
-				7DE2EB0117ECA2B100959F23 /* ViewController.h */,
-				7DE2EB0217ECA2B100959F23 /* ViewController.m */,
+				7DE2EB0117ECA2B100959F23 /* ScheduleViewController.h */,
+				7DE2EB0217ECA2B100959F23 /* ScheduleViewController.m */,
 				7DE2EB0417ECA2B100959F23 /* Images.xcassets */,
 				7DE2EAF017ECA2B100959F23 /* Supporting Files */,
 			);
@@ -253,9 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE2EB0317ECA2B100959F23 /* ViewController.m in Sources */,
+				7DE2EB3917ED10CD00959F23 /* LoginViewController.m in Sources */,
+				7DE2EB0317ECA2B100959F23 /* ScheduleViewController.m in Sources */,
 				7DE2EAFA17ECA2B100959F23 /* AppDelegate.m in Sources */,
 				7DE2EAF617ECA2B100959F23 /* main.m in Sources */,
+				7D6F87CA17EE4C510030A9AB /* BeginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +444,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jamie/Documents/xcode/Family\\ Planning",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Family Planning/Family Planning-Prefix.pch";
 				INFOPLIST_FILE = "Family Planning/Family Planning-Info.plist";
@@ -405,6 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jamie/Documents/xcode/Family\\ Planning",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Family Planning/Family Planning-Prefix.pch";
 				INFOPLIST_FILE = "Family Planning/Family Planning-Info.plist";
@@ -474,6 +534,7 @@
 				7DE2EB1D17ECA2B200959F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DE2EB1E17ECA2B200959F23 /* Build configuration list for PBXNativeTarget "Family PlanningTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +543,7 @@
 				7DE2EB2017ECA2B200959F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
